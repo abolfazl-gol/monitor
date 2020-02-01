@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package monitor.v1;
+
+import "google/protobuf/field_mask.proto";
+
+message Monitor {
+}
+
+message ListMonitorsRequest {
+}
+
+message ListMonitorsResponse {
+}
+
+message GetMonitorRequest {
+}
+
+message CreateMonitorRequest {
+}
+
+message UpdateMonitorRequest {
+}
+
+message DeleteMonitorRequest {
+}

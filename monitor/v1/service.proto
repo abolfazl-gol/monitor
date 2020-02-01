@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package monitor.v1;
+
+import "monitor/v1/monitor.proto";
+import "monitor/v1/trigger.proto";
+import "monitor/v1/user_notification.proto";
+import "google/protobuf/empty.proto";
+
+
+service Monitoring {
+    
+}

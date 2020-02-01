@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package monitor.v1;
+
+import "google/protobuf/field_mask.proto";
+
+
+message UserNotification {
+}
+
+message ListUserNotificationsRequest {
+}
+
+message ListUserNotificationsResponse {
+}
+
+message GetUserNotificationRequest {
+}
+
+message CreateUserNotificationRequest {
+}
+
+message UpdateUserNotificationRequest {
+}
+
+message DeleteUserNotificationRequest {
+}

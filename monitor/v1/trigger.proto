@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package monitor.v1;
+
+import "google/protobuf/field_mask.proto";
+
+message Trigger {
+}
+
+message HttpStat{
+}
+
+message ListTriggersRequest {
+}
+
+message ListTriggersResponse {
+}
+
+message GetTriggerRequest {
+}
+
+message CreateTriggerRequest {
+    Trigger trigger = 1;
+}
+
+message UpdateTriggerRequest {
+}
+
+message DeleteTriggerRequest {
+}

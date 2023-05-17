@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"git.tulz.ir/abolfazl/fing-monitor/pkg/errors"
+	"../api-monitor/pkg/errors"
 )
 
 type UserNotification struct {

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	monitor "git.tulz.ir/abolfazl/fing-monitor/monitor/v1"
+	monitor "../api-monitor/monitor/v1"
 	"google.golang.org/grpc"
 )
 

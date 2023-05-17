@@ -1,8 +1,8 @@
 package convert
 
 import (
-	"git.tulz.ir/abolfazl/fing-monitor/models"
-	monitoring "git.tulz.ir/abolfazl/fing-monitor/monitor/v1"
+	"../api-monitor/models"
+	monitoring "../api-monitor/monitor/v1"
 )
 
 func TriggerToProto(trigger *models.Trigger) *monitoring.Trigger {

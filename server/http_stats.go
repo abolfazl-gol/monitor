@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"git.tulz.ir/abolfazl/fing-monitor/models"
+	"../api-monitor/models"
 	"github.com/tcnksm/go-httpstat"
 )
 
